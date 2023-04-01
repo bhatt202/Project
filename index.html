@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <!-- <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"
+  /> -->
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script> -->
+    <!-- <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/js/bootstrap.min.js"
+    /> -->
+    
+
+    <!-- font awesome icon link----------------------- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="back__image">
+      <header>
+        <div class="container nav-container">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="gap-40px">
+              <div>
+                <a class="navbar-brand" href="#">Navbar</a>
+              </div>
+            </div>
+            <div>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./pages/Investor_Relations.html"
+                    >Investor Relations</a
+                  >
+                  <a class="nav-link active" href="#">Add restaurant</a>
+                  <a class="nav-link active" href="#">Log in</a>
+                  <a class="nav-link disabled active">Sign up</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="text">
+        <img src="./img/Zometo.avif" alt="" />
+        <h1>Discover the best food & drinks in Surat</h1>
+        <div class="input-group mb-3">
+          <button
+            class="btn btn-secondary dropdown-toggle bg-white"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="fas fa-map-marker-alt"></i
+            ><input type="text" placeholder="Vesu, Surat" />
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+          </ul>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Username"
+            aria-label="Username"
+            aria-describedby="basic-addon1"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- order section------------------------------------------------- -->
+    <div class="main__card">
+      <div class="row ">
+        <div class="col-lg-4 col-sm-6">
+          <div class="inner__card">
+            <div class="image">
+              <img src="./img/card1.avif" alt="" />
+            </div>
+            <div class="image__text">
+              <h3>Order Online</h3>
+              <p>Stay home and order to your doorstep</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="inner__card">
+            <div class="image">
+              <img src="./img/card2.avif" alt="" />
+            </div>
+            <div class="image__text">
+              <h3>Order Online</h3>
+              <p>Stay home and order to your doorstep</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="inner__card">
+            <div class="image">
+              <img src="./img/card3.avif" alt="" />
+            </div>
+            <div class="image__text">
+              <h3>Order Online</h3>
+              <p>Stay home and order to your doorstep</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Collection section----------------------------------------- -->
+    <div class="collection wrapper">
+      <h2>Collections</h2>
+      <div class="link">
+        <h6>
+          Explore curated lists of top restaurants, cafes, pubs, and bars in
+          Surat, based on trends
+        </h6>
+        <a href="">
+          <span
+            >All collections in Surat<i class="fas fa-caret-right"></i
+          ></span>
+        </a>
+      </div>
+
+      <div class="collection__card">
+        <div class="row mt-4">
+          <div class="col-lg-3 col-sm-6">
+            <div class="inner__collection">
+              <img src="./img/coll-1.avif" alt="" />
+              <div class="main__part">
+                <div class="text__collection">
+                  <p>Live Sports Screenings</p>
+                  <div class="collection__next">
+                    <h6>12 Places</h6>
+                    <i class="fas fa-caret-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="inner__collection">
+              <img src="./img/coll-2.avif" alt="" />
+              <div class="main__part">
+                <div class="text__collection">
+                  <p>Veggie Friendly</p>
+                  <div class="collection__next">
+                    <h6>18 Places</h6>
+                    <i class="fas fa-caret-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="inner__collection">
+              <img src="./img/coll-3.avif" alt="" />
+              <div class="main__part">
+                <div class="text__collection">
+                  <p>Insta-Worthy</p>
+                  <div class="collection__next">
+                    <h6>5 Places</h6>
+                    <i class="fas fa-caret-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="inner__collection">
+              <img src="./img/coll-4.avif" alt="" />
+              <div class="main__part">
+                <div class="text__collection">
+                  <p>Great Cafes</p>
+                  <div class="collection__next">
+                    <h6>5 Places</h6>
+                    <i class="fas fa-caret-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- location section -------------------------------- -->
+    <div class="section">
+      <div class="wrapper">
+        <div class="location__title">
+          <p>Popular localities in and around <span>Surat</span></p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-sm-6">
+            <div class="mainlocation">
+              <a href="">
+                <div class="l_title">
+                  <h5>Vesu</h5>
+                  <p>341 Place</p>
+                </div>
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="mainlocation">
+              <a href="">
+                <div class="l_title">
+                  <h5>Piplod</h5>
+                  <p>127 Place</p>
+                </div>
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="mainlocation">
+              <a href="">
+                <div class="l_title">
+                  <h5>Adajan Gam</h5>
+                  <p>278 Place</p>
+                </div>
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="mainlocation">
+              <a href="">
+                <div class="l_title">
+                  <h5>City Light</h5>
+                  <p>86 Place</p>
+                </div>
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="mainlocation">
+              <a href="">
+                <div class="l_title">
+                  <h5>Athwa</h5>
+                  <p>105 Place</p>
+                </div>
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="mainlocation">
+              <a href="">
+                <div class="l_title">
+                  <h5>Nanpura</h5>
+                  <p>39 Place</p>
+                </div>
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="mainlocation">
+              <a href="">
+                <div class="l_title">
+                  <h5>Dumas</h5>
+                  <p>22 Place</p>
+                </div>
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="mainlocation">
+              <a href="">
+                <div class="l_title">
+                  <h5>Katargam</h5>
+                  <p>178 Place</p>
+                </div>
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="mainlocation .m__seemore">
+              <a href="">
+                <div class="l_title">
+                  <h5>See More</h5>
+                  <!-- <p>341 Place</p> -->
+                </div>
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" style="background-color: rgb(255, 251, 247)">
+      <div class="wrapper">
+        <div class="zometo__app">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12 left-section">
+              <img src="./img/zometo-app.avif" alt="" />
+            </div>
+            <div class="col-lg-6 col-sm-12 right-section">
+              <h2>Get the Zomato app</h2>
+              <p>
+                We will send you a link, open it on your phone to download the
+                app
+              </p>
+              <div class="radio__button">
+                <input type="radio" />Email <input type="radio" />Phone
+              </div>
+
+              <div class="input__text">
+                <input type="text" placeholder="Email" />
+                <button>Share App Link</button>
+              </div>
+
+              <p style="font-size: 16px; margin-top: 16px">Download app from</p>
+              <div class="online">
+                <img src="./img/Play-Store.webp" alt="Play-Store" />
+                <img src="./img/App-Stote.webp" alt="App-Store" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="wrapper">
+        <div class="near">
+          <p>Explore options near me</p>
+        </div>
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                Popular cuisines near me
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <a class="actor" href="">Bakery food near me</a>
+                <span></span>
+                <a href="">Beverages food near me</a>
+                <span></span>
+                <a href="">Biryani food near me</a>
+                <span></span>
+                <a href="">Burger food near me</a>
+                <span></span>
+                <a href="">Chinese food near me</a>
+                <span></span>
+                <a href="">Continental food near me</a>
+                <span></span>
+                <a href="">Desserts food near me</a>
+                <span></span>
+                <a href="">Gujarati food near me</a>
+                <span></span>
+                <a href="">Ice Cream food near me</a>
+                <span></span>
+                <a href="">Italian food near me</a>
+                <span></span>
+                <a href="">Mithai food near me</a>
+                <span></span>
+                <a href="">Mughlai food near me</a>
+                <span></span>
+                <a href="">North Indian food near me</a>
+                <span></span>
+                <a href="">Pasta food near me</a>
+                <span></span>
+                <a href="">Pizza food near me</a>
+                <span></span>
+                <a href="">Sandwich food near me</a>
+                <span></span>
+                <a href="">Shake food near me</a>
+                <span></span>
+                <a href="">South Indian food near me</a>
+                <span></span>
+                <a href="">Street food near me</a>
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                Popular restaurant types near me
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <a href="">Bakeries near me</a>
+                <span></span>
+                <a href="">Bars near me</a>
+                <span></span>
+                <a href="">Beverage Shops near me</a>
+                <span></span>
+                <a href="">Bhojanalya near me</a>
+                <span></span>
+                <a href="">Cafés near me</a>
+                <span></span>
+                <a href="">Casual Dining near me</a>
+                <span></span>
+                <a href="">Dessert Parlors near me</a>
+                <span></span>
+                <a href="">Dhabas near me</a>
+                <span></span>
+                <a href="">Fine Dining near me</a>
+                <span></span>
+                <a href="">Food Courts near me</a>
+                <span></span>
+                <a href="">Food Trucks near me</a>
+                <span></span>
+                <a href="">Kiosks near me</a>
+                <span></span>
+                <a href="">Lounges near me</a>
+                <span></span>
+                <a href="">Paan Shop near me</a>
+                <span></span>
+                <a href="">Quick Bites near me</a>
+                <span></span>
+                <a href="">Sweet Shops near me</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                Top Restaurant Chains
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <div class="main__antor">
+                  <a href="">Burger King</a>
+                  <a href="">KFC</a>
+                  <a href="">McDonald's</a>
+                  <a href="">Pizza Hut</a>
+                  <a href="">Subway</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion">
+            <h2 class="accordion-header" id="flush-headingfour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapsefour"
+                aria-expanded="false"
+                aria-controls="flush-collapsefour"
+              >
+                Cities We Deliver To
+              </button>
+            </h2>
+            <div
+              id="flush-collapsefour"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingfour"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <div class="deliver__tag">
+                  <a href="">Delhi NCR</a>
+                  <a href="">Kolkata</a>
+                  <a href="">Mumbai</a>
+                  <a href="">Bengaluru</a>
+                  <a href="">Pune</a>
+                  <a href="">Hyderabad</a>
+                  <a href="">Chennai</a>
+                  <a href="">Lucknow</a>
+                  <a href="">Kochi</a>
+                  <a href="">Jaipur</a>
+                  <a href="">Ahmedabad</a>
+                  <a href="">Chandigarh</a>
+                  <a href="">Goa</a>
+                  <a href="">Indore</a>
+                  <a href="">Gangtok</a>
+                  <a href="">Nashik</a>
+                  <a href="">Ooty</a>
+                  <a href="">Shimla</a>
+                  <a href="">Ludhiana</a>
+                  <a href="">Guwahati</a>
+                  <a href="">Amritsar</a>
+                  <a href="">Kanpur</a>
+                  <a href="">Allahabad</a>
+                  <a href="">Aurangabad</a>
+                  <a href="">Bhopal</a>
+                  <a href="">Ranchi</a>
+                  <a href="">Visakhapatnam</a>
+                  <a href="">Bhubaneswar</a>
+                  <a href="">Coimbatore</a>
+                  <a href="">Mangalore</a>
+                  <a href="">Vadodara</a>
+                  <a href="">Nagpur</a>
+                  <a href="">Agra</a>
+                  <a href="">Dehradun</a>
+                  <a href="">Mysore</a>
+                  <a href="">Puducherry</a>
+                  <a href="">Surat</a>
+                  <a href="">Varanasi</a>
+                  <a href="">Patna</a>
+                  <a href="">Udaipur</a>
+                  <a href="">Khajuraho</a>
+                  <a href="">Neemrana</a>
+                  <a href="">Cuttack</a>
+                  <a href="">Trivandrum</a>
+                  <a href="">Haridwar</a>
+                  <a href="">Leh</a>
+                  <a href="">Pushkar</a>
+                  <a href="">Rajkot</a>
+                  <a href="">Madurai</a>
+                  <a href="">Kozhikode</a>
+                  <a href="">Alappuzha</a>
+                  <a href="">Thrissur</a>
+                  <a href="">Manipal</a>
+                  <a href="">Vijayawada</a>
+                  <a href="">Jodhpur</a>
+                  <a href="">Kota</a>
+                  <a href="">Ajmer</a>
+                  <a href="">Mussoorie</a>
+                  <a href="">Rishikesh</a>
+                  <a href="">Jalandhar</a>
+                  <a href="">Jammu</a>
+                  <a href="">Manali</a>
+                  <a href="">Dharamshala</a>
+                  <a href="">Raipur</a>
+                  <a class="see__more" href="">See more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer section start------------------------------ -->
+
+    <footer>
+      <div class="section">
+        <div class="wrapper">
+          <div class="foot__menu">
+            <div class="foot__logo">
+              <img src="./img/footer-zometo.avif" alt="" />
+            </div>
+            <div class="pop-up">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-container="body"
+                data-bs-toggle="popover"
+                data-bs-placement="top"
+                data-bs-content="Top popover"
+                id="countryPop"
+              >
+                <img src="./img/india-flag.png" alt="india-flag" /><span
+                  >India</span
+                >
+                <span><i class="fas fa-angle-down"></i></span>
+              </button>
+              <button>
+                <i class="fa-regular fa-globe"></i>English
+                <span><i class="fas fa-angle-down"></i></span>
+              </button>
+            </div>
+          </div>
+
+          <div class="footer__link">
+            <div class="row mt-4">
+              <div class="col-lg-8 col-sm-12 about">
+                <div class="inner__footer1">
+                  <h6>ABOUT ZOMATO</h6>
+                  <nav>
+                    <a href="">Who We Are</a>
+                    <a href="">Blog</a>
+                    <a href="">Work With Us</a>
+                    <a href="">Investor Relations</a>
+                    <a href="">Report Fraud</a>
+                    <a href="">Contact Us</a>
+                  </nav>
+                </div>
+
+                <div class="inner__footer1">
+                  <h6>ZOMAVERSE</h6>
+                  <nav>
+                    <a href="">Zomato</a>
+                    <a href="">Blinkit</a>
+                    <a href="">Feeding India</a>
+                    <a href="">Hyperpure</a>
+                    <a href="">Zomaland</a>
+                  </nav>
+                </div>
+
+                <div class="inner__footer1">
+                  <h6>FOR RESTAURANTS</h6>
+                  <nav>
+                    <a href="">Partner With Us</a>
+                    <a href="">Apps For You</a>
+                  </nav>
+                  <h6>FOR ENTERPRISES</h6>
+                  <nav>
+                    <a href="">Zomato For Work</a>
+                  </nav>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-sm-12 col-md-12 about1">
+                <div class="inner__footer2">
+                  <h6>LEARN MORE</h6>
+                  <nav>
+                    <a href="">Privacy</a>
+                    <a href="">Security</a>
+                    <a href="">Terms</a>
+                    <a href="">Sitemap</a>
+                  </nav>
+                </div>
+
+                <div class="inner__footer2">
+                  <h6>SOCIAL LINKS</h6>
+                  <nav>
+                    <div class="social__link">
+                      <a href=""><i class="fab fa-linkedin"></i></a>
+                      <a href=""><i class="fab fa-instagram-square"></i></a>
+                      <a href=""><i class="fab fa-twitter-square"></i></a>
+                      <a href=""><i class="fab fa-youtube"></i></a>
+                      <a href=""><i class="fab fa-facebook"></i></a>
+                    </div>
+                  </nav>
+                  <div class="online__link">
+                    <img src="./img/App-Stote.webp" alt="app store" />
+                    <img src="./img/Play-Store.webp" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <hr class="hr" />
+          <p class="copy">
+            By continuing past this page, you agree to our Terms of Service,
+            Cookie Policy, Privacy Policy and Content Policies. All trademarks
+            are properties of their respective owners. 2008-2023 © Zomato™ Ltd.
+            All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const popoverTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="popover"]'
+      );
+      const popoverList = [...popoverTriggerList].map(
+        (popoverTriggerEl) =>
+          new bootstrap.Popover(popoverTriggerEl, { html: true })
+      );
+    </script>
+  </body>
+</html>
